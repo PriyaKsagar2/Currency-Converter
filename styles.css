@@ -11,12 +11,28 @@ body{
     background-color: rgb(176, 176, 255);
 }
 
+h2{
+    font-size: 2rem;
+}
+
+.amount{
+    margin-bottom: 3rem;
+}
+
+.amount p{
+    font-size: 1.2rem;
+}
+
+.amount input{
+    padding-left: 0.8rem;
+}
+
 .container{
     background-color: rgb(218, 218, 254);
-    padding: 2rem;
+    padding: 4rem;
     border-radius: 1rem;
-    height:45vh;
-    width: 40vh;
+    height:20rem;
+    width: 20rem;
 }
 
 form{
@@ -32,7 +48,7 @@ form select,button,input{
 
 form input{
     border: 1px solid lightgray;
-    font-size: 1rem;
+    font-size: 1.2rem;
     height: 3rem;
     padding-left: 0.5 rem;
 }
@@ -42,24 +58,31 @@ form input{
     justify-content: space-between;
     align-items: center;
     margin-top: 2rem;
+    margin-bottom: 3rem;
+    height: 2rem;
 }
 
 .dropdown i{
     font-size: 1.5rem;
     margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    background-color: #fff;
 }
 
-.select-container img{
-    max-width: 2rem;
+.dropdown p{
+    font-size: 1.2rem;
 }
 
 .select-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 6rem;
+    width: 8.4rem;
+    height: 4rem;
     border-radius: 0.5rem;
     border: 1px solid lightgray;
+    background-color: #fff;
 }
 
 .select-container select{
@@ -69,12 +92,13 @@ form input{
 
 .msg{
     margin: 2rem 0 2rem 0;
+    font-size: 1.2rem;
 }
 
 form button{
     height: 3rem;
     background-color: rgb(176, 176, 255);
-    color: #ffff;
-    font-size: 1.15rem;
+    color: #fff;
+    font-size: 1.2rem;
     cursor: pointer;
 }
